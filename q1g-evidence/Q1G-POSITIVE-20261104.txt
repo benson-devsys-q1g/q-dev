@@ -1,1 +1,4 @@
-Q1-G positive control`nprincipal=benson-devsys-bot`nfixture=q-dev`ndata_classification=disposable`n
+Q1-G positive control
+principal=benson-devsys-bot
+fixture=q-dev
+data_classification=disposable
