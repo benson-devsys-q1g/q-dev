@@ -1,0 +1,54 @@
+{
+  "approved_scope": [
+    "synthetic demo: edit src/demo.txt only"
+  ],
+  "branch": "feature/demo-sample",
+  "changed_files": [
+    "src/demo.txt"
+  ],
+  "cleanup_ledger": [
+    "tmp dir demo-tmp-1 (synthetic, pending removal)"
+  ],
+  "content_sha256": "398d9cf0182627a39a62ed8b9305d3c7eaec18f5960af43b42bd8fd8917150f4",
+  "created_utc": "2026-11-10T00:28:38Z",
+  "decisions": [
+    "use synthetic data only"
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "test",
+      "result": "synthetic PASS (no real run)"
+    }
+  ],
+  "failed_attempts": [
+    "first draft of demo used wrong path; corrected"
+  ],
+  "id": "20261110T002838Z-feature-demo-sample-a359448b",
+  "incomplete": [
+    "write docs/demo.md",
+    "run final test"
+  ],
+  "limitations": [
+    "Synthetic sample; no real repository state."
+  ],
+  "next_action": "Write docs/demo.md, then re-run the demo test and update this checkpoint.",
+  "observed": {
+    "ci": {
+      "run_id": null,
+      "state": "unknown"
+    },
+    "default_sha": "2222222222222222222222222222222222222222",
+    "head_sha": "1111111111111111111111111111111111111111",
+    "pr": null,
+    "remote_sha": "1111111111111111111111111111111111111111"
+  },
+  "project": {
+    "kind": "repo",
+    "owner": "example-org",
+    "repo": "example-app"
+  },
+  "rollback": "Delete branch feature/demo-sample (synthetic).",
+  "schema": "devsys.checkpoint/1",
+  "work_order": "example-issue-1"
+}
